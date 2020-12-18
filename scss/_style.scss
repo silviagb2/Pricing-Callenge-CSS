@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  background-color: $color-neutral-1;
+
+  main {
+      .grid-container {
+          .card {
+              margin: 0 auto;
+              background-color: white;
+              text-align: center;
+              width: 90vw;
+              border-radius: 10px;
+              padding: 25px;
+              box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.075);
+
+              h2 {
+                  font-size: 1.25em;
+                  color: $color-neutral-3;
+                  margin: 8px 0;
+              }
+
+              .price {
+                  color: $color-neutral-4;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 5px;
+                  margin: 18px 0;
+
+                  .dollar-sign {
+                      font-size: 2.5em;
+                  }
+
+                  .price-value {
+                    font-size: 4.5em;
+                  }
+              }
+
+              .monthly {
+                  display: none;
+              }
+
+              table {
+                  margin: 30px auto;
+                  color: $color-neutral-3;
+                  width: 100%;
+                  border-collapse: collapse;
+
+                  td {
+                      border-bottom: 0.5px solid $color-neutral-2;
+                      border-top: 0.5px solid $color-neutral-2;
+                      padding: 15px 0;
+                  }
+              }
+
+              button {
+                  background-image: $color-primary-right;
+                  border: none;
+                  border-radius: 5px;
+                  color: white;
+                  text-transform: uppercase;
+                  text-decoration: none;
+                  width: 100%;
+                  padding: 12px;
+              }
+          }
+
+          #second-card{
+              background-color: red;
+          }
+        }
+
+      
+  }
+}

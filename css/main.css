@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  background-color: #f6f6fe;
+}
+body main .grid-container .card {
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  width: 90vw;
+  border-radius: 10px;
+  padding: 25px;
+  -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.075);
+          box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.075);
+}
+body main .grid-container .card h2 {
+  font-size: 1.25em;
+  color: #6d708d;
+  margin: 8px 0;
+}
+body main .grid-container .card .price {
+  color: #494c5f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin: 18px 0;
+}
+body main .grid-container .card .price .dollar-sign {
+  font-size: 2.5em;
+}
+body main .grid-container .card .price .price-value {
+  font-size: 4.5em;
+}
+body main .grid-container .card .monthly {
+  display: none;
+}
+body main .grid-container .card table {
+  margin: 30px auto;
+  color: #6d708d;
+  width: 100%;
+  border-collapse: collapse;
+}
+body main .grid-container .card table td {
+  border-bottom: 0.5px solid #b3b5c6;
+  border-top: 0.5px solid #b3b5c6;
+  padding: 15px 0;
+}
+body main .grid-container .card button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  padding: 12px;
+}
